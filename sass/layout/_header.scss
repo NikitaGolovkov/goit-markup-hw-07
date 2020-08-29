@@ -33,11 +33,11 @@
 	color: $main-color;
 	transition: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.menu-link:hover,
-.menu-link:focus {
-	color: $accent-color;
+	&:hover,
+	&:focus {
+		color: $accent-color;
+	}
 }
 
 .menu-item .menu-link.current {
@@ -75,12 +75,12 @@
 	fill: #757575;
 	transition: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contacts-mail:focus,
-.contacts-mail:hover {
-	color: $accent-color;
-	fill: $accent-color;
+	&:focus,
+	&:hover {
+		color: $accent-color;
+		fill: $accent-color;
+	}
 }
 
 .icon-mail {
@@ -103,12 +103,12 @@
 	fill: $text-color;
 	transition: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contacts-tel:focus,
-.contacts-tel:hover {
-	color: $accent-color;
-	fill: $accent-color;
+	&:focus,
+	&:hover {
+		color: $accent-color;
+		fill: $accent-color;
+	}
 }
 
 .icon-tel {

@@ -788,8 +788,7 @@ div > img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu-link:hover, .menu-link:focus {
   color: #2196f3;
 }
 
@@ -846,8 +845,7 @@ div > img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-mail:focus,
-.contacts-mail:hover {
+.contacts-mail:focus, .contacts-mail:hover {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -880,8 +878,7 @@ div > img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-tel:focus,
-.contacts-tel:hover {
+.contacts-tel:focus, .contacts-tel:hover {
   color: #2196f3;
   fill: #2196f3;
 }

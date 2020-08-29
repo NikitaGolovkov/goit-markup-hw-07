@@ -578,8 +578,7 @@ div > img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu-link:hover, .menu-link:focus {
   color: #2196f3;
 }
 
@@ -636,8 +635,7 @@ div > img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-mail:focus,
-.contacts-mail:hover {
+.contacts-mail:focus, .contacts-mail:hover {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -670,8 +668,7 @@ div > img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-tel:focus,
-.contacts-tel:hover {
+.contacts-tel:focus, .contacts-tel:hover {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -728,8 +725,7 @@ div > img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.filter-btn:hover, .filter-btn:focus {
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
@@ -776,6 +772,14 @@ div > img {
   color: #212121;
 }
 
+.portfolio-item:hover .product-overlay::before,
+.portfolio-item:hover .product-overlay .product-text,
+.portfolio-item:focus .product-overlay::before,
+.portfolio-item:focus .product-overlay .product-text {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
 .product-overlay {
   position: relative;
   overflow: hidden;
@@ -797,14 +801,6 @@ div > img {
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
-}
-
-.portfolio-item:hover .product-overlay::before,
-.portfolio-item:hover .product-overlay .product-text,
-.portfolio-item:focus .product-overlay::before,
-.portfolio-item:focus .product-overlay .product-text {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 
 .portfolio-list .item:hover .product-overlay::before,
